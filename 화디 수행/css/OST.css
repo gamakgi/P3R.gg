@@ -1,0 +1,29 @@
+.음악 {
+    box-sizing: border-box;
+    display: block;  /*한 줄을 혼자 다 차지하는 요소*/
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+body {
+  user-select: none;
+  background-image: linear-gradient(to top, rgb(2, 0, 145), rgb(213, 187, 255));   
+  min-width: auto;
+}
+p {
+    font-family: 'Giants';
+    user-select: none;
+    text-align: center;
+    font-size: 40px ;   
+}
+.곡 {
+    width: 40%;
+    background-color: white;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    border-radius: 30px;
+}

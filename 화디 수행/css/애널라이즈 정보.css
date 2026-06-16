@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Giants";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+body {
+  font-family: "Giants";
+  background-size: cover; /* 화면에 꽉 채움 */
+  background-position: center; /* 가운데 정렬 */
+  background-repeat: no-repeat; /* 반복 안 함 */
+  user-select: none;
+  background-image: linear-gradient(to top, rgb(2, 0, 145), rgb(70, 250, 94));   /* rgb(213, 187, 255));*/
+  min-height: 100vh;
+}
+.애널라이즈정보 {
+  text-align: center;
+  width: 50%;
+  margin: 0% auto;
+  background-color: rgb(255, 255, 255);
+  user-select: none;
+  border-collapse: collapse;    /*검정 네모 안 겹치게*/
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Giants";
+}
+td {
+  border: 3px solid black;
+}
+.title{
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(245, 245, 255);
+}
+.이름{
+  width: 400px;
+}
+.참 {
+  background-color: rgb(250, 197, 127);
+}
+.타 {
+  background-color: aquamarine;
+}
+.관 {
+  background-color: darkkhaki;
+}
+.화 {
+  background-color: rgb(206, 2, 2);
+}
+.빙 {
+  background-color: rgb(3, 223, 223);
+}
+.전 {
+  background-color: rgb(177, 231, 50);
+}
+.풍 {
+  background-color: rgb(90, 209, 90);
+}
+.암 {
+  background-color: rgb(114, 71, 155);
+}
+.레어 {
+  background-color: rgb(209, 209, 9);
+}
+.보스 {
+  background-color: rgb(202, 51, 96);
+}
+.강적 {
+  background-color: rgb(203, 12, 228);
+}
+.모나드 {
+  background-color: rgb(255, 44, 125);
+}

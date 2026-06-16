@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'KotraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Giants';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+body {
+    background-size: cover;         /* 화면에 꽉 채움 */
+    background-position: center;    /* 가운데 정렬 */
+    background-repeat: no-repeat;   /* 반복 안 함 */
+    margin: 0;
+    user-select: none;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.home{
+    display:inline-block;
+    padding:10px 10px;
+    margin-top: 7px;
+    margin-left: 7px;
+    text-decoration:none;       /* 밑줄 없애기 */
+    color:#ffffff;
+    background:#4d67bb;
+    border-radius: 5px;        
+    font-family: 'Giants';
+}
+h1{
+    user-select: none;
+    text-align: center;
+    font-size: 70px ;
+    font-family: 'KotraBold', sans-serif;
+}

@@ -1,0 +1,13 @@
+<tr>
+            <td></td>
+            <td class="참"></td>
+            <td class="타"></td>
+            <td class="관"></td>
+            <td class="화"></td>
+            <td class="빙"></td>
+            <td class="전"></td>
+            <td class="풍"></td>
+            <td class="광"></td>
+            <td class="암"></td>
+            <td></td>
+        </tr>
