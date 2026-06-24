@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Giants";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+body {
+  font-family: "Giants";
+  background-size: cover; /* 화면에 꽉 채움 */
+  background-position: center; /* 가운데 정렬 */
+  background-repeat: no-repeat; /* 반복 안 함 */
+  user-select: none;
+  min-height: 100vh;
+  background-color:  rgb(213, 187, 255);  /* rgb(213, 187, 255));*/
+}
+.title{
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(245, 245, 255);
+}
+.애널라이즈정보 {
+  text-align: center;
+  width: 90%;
+  margin: 0%auto;
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+  user-select: none;
+  border-collapse: collapse;    /*검정 네모 안 겹치게*/
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Giants";
+}
+.재료{
+    background-color: rgb(92, 92, 209);
+}
+td {
+  border: 3px solid black;
+  width: 120px;
+}

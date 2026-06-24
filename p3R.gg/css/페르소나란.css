@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Giants';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+body {
+    background-image: url("../images/페르소나란.jpg");
+}
+.content-container {
+    margin-left: 650px;
+    text-align: center;
+    box-sizing: border-box;
+}
+img {
+    max-width: 500px;
+    margin-left: 1025px;    
+    margin-top: 30px;
+    border: 5px solid rgb(0, 0, 0);
+}
+p {
+    font-size: 20px;
+    font-family: 'Giants';
+}

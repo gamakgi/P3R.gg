@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(165, 189, 255);
+    
+}
+@font-face {
+    font-family: 'KotraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+.캐릭 {
+    width:100%;
+}
+.title{
+  font-size: 50px;
+  text-align: center;
+  background-color: rgb(245, 245, 255);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: 'KotraBold';
+}
+.애널라이즈정보 {
+  text-align: center;
+  width: 80%;
+  height: 50%;
+  margin: 0% auto;
+  background-color: rgb(255, 255, 255);
+  user-select: none;
+  border-collapse: collapse;    /*검정 네모 안 겹치게*/
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Giants";
+  margin-bottom: 50px;
+}
+td {
+  border: 3px solid black;
+  height: 100px;
+  width: 50px;
+  font-size: 30px;
+}
+.힐{
+    background-color: rgb(40, 161, 40);
+}
+.물리{
+    background-color: rgb(238, 189, 126);
+}
+.메이지{
+    background-color: rgb(207, 226, 96);
+}
+.서포터{
+    background-color: aquamarine;
+}
+.디버퍼{
+    background-color: rgb(172, 102, 238);
+}
+.설명{
+    text-align: center;
+    font-size: 25px ;
+}
+p {
+    font-family: "Giants";
+}
+
+/* ai 쓴 부분 */
+.사진 {
+    min-height:50vh;
+    display:flex; /* 위아래 정렬 */
+    justify-content:center;   /* 컨텐츠 사이의 공간을 가운데로 정렬 */
+    align-items:center;  /* 세로축 기준으로 정렬 */
+}
+.character-grid{
+    width:1500px;
+    height:950px;
+
+    display:grid; /* 두방향 레이아웃 */
+    grid-template-columns:repeat(5, 1fr);  /* 크기*/
+    grid-template-rows:repeat(2, 1fr);  /* 크기*/
+    
+}
+.character{
+    position:relative;
+    overflow:hidden;  /* 넘아가면 그부분 짜르기*/
+    display:flex;
+    justify-content:center;  /* 가로축 중앙 정렬 */
+    align-items:center;    /* 세로 교차축 정렬 */
+}
+.character img{
+    width:100%;
+    height:100%;
+    object-fit:cover;   /* 이미지의 사이즈가 가로세로 비율이 유지되며 딱 맞게 */
+}

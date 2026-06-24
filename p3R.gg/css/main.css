@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'KotraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+body {
+    background-image: url("../images/main.png");
+    background-size: cover;      /* 화면에 꽉 채움 */
+    background-position: center; /* 가운데 정렬 */
+    background-repeat: no-repeat;/* 반복 안 함 */
+    height: 100vh;  /* vh는 화면에 비례하는 단위이다 */
+    margin: 0;
+    font-family: 'KotraBold', sans-serif;
+    user-select: none;
+}
+a{
+    text-decoration: none;    /*밑줄 없애기*/
+    color: inherit;         /*보라색 기본으로 바꾸기*/
+}
+.menu{
+    position:absolute;         /*아래에 붙이는 */
+    bottom:30px;
+    right:60px;       
+    align-items:flex-end;           /*우측 정렬*/
+    display:flex;               /*우측 정렬*/
+    flex-direction:column;      /*신문마냥 위에서 아래로 정렬*/        
+    gap:3px;                     /*버튼간의 간격*/
+}
+.item{
+    font-size: 60px;
+    line-height:1;
+    color:#8fe9ff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 9px;
+    padding-bottom: 1px;
+    transition:0.2s ease;
+    transform-origin:left center;       /*살짝 오른쪽으로*/
+}
+.item:hover{
+    transform:translateX(20px) scale(1.05);
+    color:#ff0000;
+    background-color: white;
+}
